@@ -1,5 +1,6 @@
 void main() {
   final cuadrado = Square(side: 4);
+  cuadrado._side = 10;
   print(cuadrado.area);
 }
 
